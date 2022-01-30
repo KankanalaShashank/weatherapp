@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.background-image{
+    background-image:url("bg.jpeg");
+    height:100vh;
+    background-size:cover;
+    overflow:auto;
+    display:flex;
+    justify-content: center;
+
+    
+    
+}
+.aligningmainitem{
+    margin-top:90px;
+}
+.alignelements{
+    align-self: center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    
+    background-color:transparent;
+    width:35vw;
+    text-align:center;
+    
+}
+.borderstyling{
+    border-width:10px;
+    border-style: double;
+    border-color:rgb(62, 23, 136);
+}
+.top{
+    margin:20px;
+}
+.iconstyle{
+    height:150px;
+    width:150px;
+    text-align: center;
+}
+.icondiv{
+    text-align: center;
+}
+input{
+    margin-bottom:3px;
+}
+h1{
+    font-family:cursive;
+    color:brown;
+    font-weight: 900;
+}
+.mainheading{
+    font-family:"Caveat";
+    color:rgb(141, 192, 60);
+    font-style: normal;
+    font-size: 60px;
+}
+.input1{
+    height:4vh;
+    width:15vw;
+    font-size:20px;
+    font-family:"Roboto";
+}
+button{
+    background-color: deeppink;
+    border-radius:10px;
+}
+.input2{
+    height:20px;
+    width:20px;
+}
+label{
+    font-size:20px;
+    font-family: "Roboto";
+}
+.selectheading{
+    text-align:left;
+}
